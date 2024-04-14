@@ -1,0 +1,301 @@
+body {
+    font-family: helvetica, sans-serif;
+    margin: 0;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #43a156;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    margin-right: auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #2a783a;
+    outline: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.center-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.additional-columns {
+    display: flex;
+}
+
+.additional-columns > div {
+    flex: 1;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.additional-info p {
+    margin: 0;
+}
+
+.additional-columns > div:first-child {
+    align-self: center;
+}
+
+.additional-columns > div:last-child {
+    margin-right: 40px;
+}
+
+.pizza-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.pizza {
+    text-align: center;
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.pizza img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .pizza {
+        width: calc(25% - 20px);
+    }
+}
+
+.pizza h2 {
+    font-size: 24px;
+    color: black;
+}
+
+.small-text {
+    font-size: 14px;
+    color: gray;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.order-btn {
+    background-color: #2a783a;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.order-btn:hover {
+    background-color: #1a582a;
+}
+
+footer {
+    background-color: #43a156;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-info,
+.additional-info {
+    width: 100%;
+    max-width: 400px;
+}
+
+.column {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.site-container {
+	margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.site-container img {
+    margin-right: 10px;
+}
+
+.site-container h2 {
+    margin-right: 10px;
+}
+
+#video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.text-container {
+    text-align: center;
+    font-size: 18px;
+    width: 60%;
+}
+
+.text-container h2 {
+    font-size: 24px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 31.25%;
+    overflow: hidden;
+}
+
+iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.columns-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 20px;
+}
+
+.custom-column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.custom-column h2 {
+    color: #2a783a;
+}
+
+.custom-column p {
+    margin: 10px 0;
+}
+
+.custom-column img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.map-container {
+    position: relative;
+    width: 80%;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#mapIframe {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #2a783a;;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2a783a;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td img {
+    max-width: 100px;
+    height: auto;
+}

@@ -1,0 +1,2 @@
+# Several works from the web programming course
+In this repository, I placed the works that were performed for the web programming course at the university. These jobs aim to introduce different technologies and how they work, regardless of implementation design.

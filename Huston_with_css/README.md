@@ -1,0 +1,3 @@
+## Demonstrate the various capabilities of CSS
+The basis is work without the use of CSS, but with the change of elements, where it is better and more convenient to use additional technology. In this case, the page looks funny, this is because the purpose of this work is to demonstrate the possibilities of CSS, regardless of the design of the page.
+<br>Original Wikipedia page: https://uk.wikipedia.org/wiki/%D0%A5%27%D1%8E%D1%81%D1%82%D0%BE%D0%BD

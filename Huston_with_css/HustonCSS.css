@@ -1,0 +1,180 @@
+h2 {
+    color: #750c0c;
+    font-family: georgia;
+    font-size: 20px;
+}
+
+h3 {
+    color: #333;
+    font-family: georgia;
+    font-size: 18px;
+}
+
+.list-container {
+    font-family: helvetica;
+    font-size: 16px;
+    display: inline-block; 
+    border: 2px solid #b45cf2;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style: none; 
+    text-align: left;
+}
+
+li {
+    margin: 4px 0; 
+}
+
+a {
+  color: #428709; 
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    display: inline-block; 
+    align-items: center;
+    border: 1px solid #333;
+    padding: 10px;
+    flex: 0;
+}
+
+.caption {
+    font-family: helvetica;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.text {
+    flex: 1;
+    padding: 10px;
+    font-family: helvetica;
+}
+
+.text1 {
+    flex: 1;
+    padding: 10px;
+    font-size: 20px;
+    font-family: fantasy;
+    color: #750c41;
+}
+
+.edit {
+    color: #333;
+    font-family: georgia;
+    font-size: 14px;
+}
+
+.table {
+    background-color: #9999;
+}
+
+.table1 {
+    flex: 0;
+    border-collapse: collapse;
+    margin: 20px;
+    background-color: #b45cf2;
+}
+
+.table1 th, .table1 td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.table1 thead th {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.table1 tbody tr:nth-child(even) {
+    background-color: #5ca2f2;
+}
+
+.red-table-line {
+    background-color: #fc2403;
+}
+
+.green-table-line {
+    background-color: #73fc03;
+}
+
+.yellow-table-line {
+    background-color: #c2ba25;
+}
+
+.flex-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d9dbdb;
+    padding: 10px;
+}
+
+.flex1, .flex2, .flex3, .flex4 {
+    flex: 0;
+    padding: 10px;
+}
+
+.flex2, .flex3 {
+    margin: 0;
+    color: #750c0c;
+}
+
+.chapter0 {
+    font-size: 14px;
+    font-family: georgia;
+    color: #000;
+}
+
+.chapter1 {
+    font-size: 14px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: #333;
+}
+
+.chapter2 {
+    font-size: 16px;
+    font-family: Bradley Hand, cursive;
+    font-weight: bold;
+    color: #96221a;
+}
+
+.chapter3 {
+    font-size: 22px;
+    font-family: fantasy;
+    font-style: italic;
+    color: #96221a;
+}
+
+.chapter4 {
+    font-size: 12px;
+    font-family: Bookman;
+    font-stretch: semi-condensed;
+    color: #9952cc;
+}
+
+.chapter5 {
+    font-size: 18px;
+    font-family: Bookman;
+    text-decoration: underline;
+    color: #1f0f61;
+}
+
+.chapter6 {
+    font-size: 16px;
+    font-family: helvetica;
+    color: #0c6975;
+}
+
+.text-align {
+    text-align: center;
+}
